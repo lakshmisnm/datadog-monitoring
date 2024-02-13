@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@datadog/datadog-ci": "^2.30.0"
+  }
+}
