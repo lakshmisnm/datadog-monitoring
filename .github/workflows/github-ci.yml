@@ -3,6 +3,8 @@ on:
   push:
     branches:
       - main  # adjust this to your main branch name if different
+  schedule:
+    - cron: '*/15 * * * *'
 jobs:
   e2e_testing:
     runs-on: ubuntu-latest
